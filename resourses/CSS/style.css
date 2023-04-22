@@ -1,0 +1,43 @@
+/*header*/
+/*desktop*/
+header {
+    margin: 0 1.5rem;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.nr1 {
+    display: flex;
+}
+
+.nr2 {
+    display: flex;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+h1 span {
+    opacity: 0.6;
+}
+
+
+.desktop {
+    display: flex;
+}
+
+.desktop li {
+    margin-right: 1rem;
+    list-style-type: none;
+    
+}
+
+.desktop li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
