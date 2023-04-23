@@ -94,3 +94,45 @@ h1 span {
     text-decoration: none;
     margin: 0.5rem 0;
 }
+
+/*main content*/
+/*desktop*/
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightgray;
+    padding: 2rem 3.5rem;
+    justify-content: center;
+    align-content: center;
+}
+.content h2 {
+    flex: none;
+    width: 100%;
+    text-align: center;
+}
+.container-photo {
+    overflow: hidden;
+    width: 100%;
+}
+
+.container-photo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container-content {
+    background-color: white;
+    margin: 2rem;
+    width: 28%;
+    padding-bottom: 1rem;
+}
+
+.container-content h3,
+.container-content p {
+    margin-left: 1rem;
+}
+
+.container-content h3{
+    margin-top: 1rem;
+}
