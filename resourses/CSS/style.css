@@ -197,3 +197,78 @@ h1 span {
 .container-content h3{
     margin-top: 1rem;
 }
+
+
+
+    /*main exhebit*/
+    /*desktop*/
+
+.exhibit {
+    padding: 2rem 0;
+    border-bottom: solid gray 1px;
+}
+
+.exhibit h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.exhibit-container {
+    display: flex;
+    width: 100%;
+}
+
+.exhibit-left {
+    width: 60%;
+    overflow: hidden;
+    margin-left: 1.5rem;
+}
+
+.exhibit-left video {
+    max-width: 100%;
+    height: auto;
+}
+
+.exhibit-right {
+    width: 40%;
+    margin-left: 1.5rem;
+}
+
+.gray, .non-gray {
+    display: flex;
+    padding: 1rem 0rem 1rem 1rem;
+    overflow: hidden;
+}
+
+.gray img, .non-gray img {
+    max-width: 35%;
+    height: auto;
+}
+
+.gray {
+    background-color: rgb(205, 203, 203);
+}
+
+.text-exhibit {
+    width: 65%;
+    margin-left: 1rem;
+}
+
+    /*footer*/
+    /*desktop*/
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1.5rem ;
+}
+
+.footer-right ul li {
+    display: inline;
+    margin-right: 0.7rem;
+}
+
+.footer-right ul li a {
+    text-decoration: none;
+    color: black;
+}
