@@ -1,5 +1,10 @@
 body {
     margin: 0;
+    font-family: Helvetica;
+}
+
+h1, h2, h3, h4 {
+    font-weight: bold;
 }
 
 
@@ -28,7 +33,7 @@ h1 {
 }
 
 h1 span {
-    opacity: 0.6;
+    opacity: 0.4;
 }
 
 
@@ -78,6 +83,13 @@ h1 span {
 .banner-text h2 {
     font-size: 3.5rem;
     font-weight: 700;
+    opacity: 0.7;
+}
+
+.banner-text p {
+    font-size: 1.5rem;
+    opacity: 0.7;
+    font-weight: 550;
 }
 
 .button {
@@ -101,6 +113,7 @@ h1 span {
 
 .practicing {
     display: flex;
+    width: 100%;
 }
 
 .left-side {
@@ -108,6 +121,16 @@ h1 span {
     padding: 2rem 1.5rem;
     border-right: 1px solid gray;
     
+}
+
+.left-side h2 {
+    font-size: 3rem;
+    opacity: 0.75;
+}
+
+.left-side p {
+    font-size: 1.3rem;
+    opacity: 0.75;
 }
 
 .photo-practicing {
@@ -124,18 +147,15 @@ h1 span {
 .right-side {
     width: 40%;
     padding-top: 1rem;
-}
-
-.photos-right {
-    width: 35%;
     overflow: hidden;
-    margin-right: 1rem;
-    
 }
 
-.photos-right img {
-    width: 100%;
+
+
+.box img {
+    max-width: 35%;
     height: auto;
+    padding-right: 1rem;
 }
 
 .text-right {
@@ -146,10 +166,28 @@ h1 span {
     text-decoration: none;
 }
 
+.text-right h3 {
+    font-size: 2rem;
+    opacity: 0.75;
+}
+
+.text-right p {
+    font-size: 1.5rem;
+    opacity: 0.75;
+}
+
+
 .box {
+    box-sizing: border-box;
     display: flex;
-    padding: 1rem;
+    padding: 1rem 0rem 1rem 1rem;
+    height: fit-content;
     width: 100%;
+    padding-right: 1rem;
+}
+
+.colored {
+    background-color: rgb(199, 196, 196);
 }
 
 
@@ -162,7 +200,7 @@ h1 span {
 .content {
     display: flex;
     flex-wrap: wrap;
-    background-color: lightgray;
+    background-color: rgb(219, 218, 218);
     padding: 2rem 3.5rem;
     justify-content: center;
     align-content: center;
@@ -171,6 +209,7 @@ h1 span {
     flex: none;
     width: 100%;
     text-align: center;
+    font-size: 3rem;
 }
 .container-photo {
     overflow: hidden;
@@ -184,18 +223,23 @@ h1 span {
 
 .container-content {
     background-color: white;
-    margin: 2rem;
+    margin: 1rem 1rem;
     width: 28%;
-    padding-bottom: 1rem;
 }
 
 .container-content h3,
 .container-content p {
     margin-left: 1rem;
+    opacity: 0.75;
 }
 
 .container-content h3{
     margin-top: 1rem;
+    font-size: 2rem;
+}
+
+.container-content p {
+    font-size: 1.4rem
 }
 
 
@@ -211,6 +255,19 @@ h1 span {
 .exhibit h2 {
     text-align: center;
     margin-bottom: 2rem;
+    font-size: 3rem;
+    opacity: 
+    0.75;
+}
+
+.exhibit h3 {
+    font-size: 1.7rem;
+    opacity: 0.75;
+}
+
+.exhibit p {
+    font-size: 1.3rem;
+    opacity: 0.75;
 }
 
 .exhibit-container {
