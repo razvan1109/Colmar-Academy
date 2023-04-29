@@ -269,8 +269,53 @@ h1 span {
     background-color: rgb(199, 196, 196);
 }
 
+.mobile-practicing {
+    display: none;
 }
 
+}
+/*main practicing*/
+/*mobile*/
+@media only screen and (orientation: portrait) {
+    .left-side {
+        display: none;
+    }
+    .right-side {
+        display: none;
+    }
+
+    .mobile-practicing {
+        overflow: hidden;
+        text-align: center;
+    }
+
+    .mobile-practicing img {
+        max-width: 90%;
+        margin: 1rem;
+    }
+
+    .text-mobile {
+        margin: 1rem 1rem 2rem 1rem ;
+        text-align: left;
+    }
+
+    .text-mobile h3 {
+        opacity: 0.75;
+        font-size: 1.5rem;
+        margin: 0;
+    }
+
+    .text-mobile p{
+        margin: 0;
+        opacity: 0.75;
+        font-size: 1rem;
+    }
+
+    .text-mobile a {
+        text-decoration: none;
+        color: rgb(0, 149, 255);
+    }
+}
 
 @media only screen and (orientation: landscape) {
 /*main content*/
