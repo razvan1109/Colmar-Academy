@@ -365,6 +365,36 @@ h1 span {
 .container-content p {
     font-size: 1.4rem
 }
+
+.content-mobile {
+    display: none;
+}
+}
+
+@media only screen and (orientation: portrait) {
+    .content {
+        display: none;
+    }
+
+    .content-mobile {
+        text-align: center;
+        padding: 2rem 0;
+        border-top: 1px solid gray;
+    }
+
+    .box-content {
+        width: 90%;
+        text-align: left;
+        padding-top: 1rem;
+        margin: 0 auto;
+    }
+
+    .box-content h3 {
+        background-color: rgb(212, 210, 210);
+        margin: 0;
+        margin-bottom: 0.5rem;
+        padding: 1rem 0 1.5rem 1rem;
+    }
 }
 
 @media only screen and (orientation: landscape) {
