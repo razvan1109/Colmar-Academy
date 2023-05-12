@@ -371,6 +371,9 @@ h1 span {
 }
 }
 
+/*main content*/
+    /*mobile*/
+
 @media only screen and (orientation: portrait) {
     .content {
         display: none;
@@ -380,6 +383,7 @@ h1 span {
         text-align: center;
         padding: 2rem 0;
         border-top: 1px solid gray;
+        border-bottom: 1px solid gray;
     }
 
     .box-content {
@@ -466,6 +470,40 @@ h1 span {
     margin-left: 1rem;
 }
 }
+
+/*main exhebit*/
+    /*mobile*/
+
+@media only screen and (orientation: portrait) {
+    .exhibit {
+        margin: 2rem 0 1rem 0;
+    }
+
+    .exhibit h2 {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .exhibit-right {
+        display: none;
+    }
+
+    .exhibit-left h3, .exhibit-left p {
+        display: none;
+    }
+
+    .exhibit-left {
+        width: 100%;
+        overflow: hidden;
+        margin-bottom: 1.5rem;
+    }
+
+    .exhibit-left video {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
 @media only screen and (orientation: landscape) {
     /*footer*/
     /*desktop*/
@@ -485,5 +523,18 @@ footer {
     text-decoration: none;
     color: black;
 }
+}
+
+
+/*footer*/
+    /*mobile*/
+@media only screen and (orientation: portrait) {
+    .footer-right {
+        display: none;
+    }
+    .footer-left {
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+    }
 }
 
